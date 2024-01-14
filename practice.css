@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family:'DM Serif Display', serif;
+    font-size: 2rem;
+    position: relative;
+
+   
+
+} 
+
+.container{
+    background: linear-gradient(to bottom left, transparent 50%, #fc6c85 50%);
+    /* background-color:#fc6c85; */
+    padding: 10px;
+    position: relative;
+    border:2px solid black;
+    
+    
+    
+}
+
+
+h1{
+    font-family:'DM Serif Display', serif;
+    font-size: 2rem;
+    
+   
+}
+h3{
+    font-family:'DM Serif Display', serif;
+    font-size: 1.10rem;
+    margin-top: 0;
+}
+p{
+    font-size: 0.8rem;
+}
+
+input{
+    padding: 8px;
+    width: 290px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 14px;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+select{
+    width:4rem;
+    background-color: #000;
+    color: #fff;
+    padding: 1px;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+option{
+    padding: 1px;
+    font-family: 'Courier New', Courier, monospace;
+}
+select:focus{
+    border: none;
+    outline: none;
+}
+
+button{
+    background-color:#fff;
+    border:none;
+    border-radius: 50%;
+    width: 2rem;
+    margin-left: 10px;
+    padding: 8px;
+    font-weight: bold;
+
+}
+
+button:hover{
+    background-color:#000;
+    color: #fff;
+
+}
+
+

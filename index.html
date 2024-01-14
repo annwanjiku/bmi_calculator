@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="practice.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>BMI Calculator<i class="fa fa-calculator" aria-hidden="true"></i></h1>
+
+        <div id="heightcontainer">
+            <input type="number" min="0" name="height" placeholder="height"  value="">
+            <select>
+                <option>Cm</option>
+                <option>Feet</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div id="weightcontainer">
+            <input type="number" min="0" name="weight" placeholder="weight" value="">
+            <select>
+                <option>KG</option>
+                <option>Grams</option>
+            </select>      
+        </div>
+
+        <br>
+
+        <div id="submit">
+            <button onclick="calculateBMI()">Submit</button>
+        </div>
+        <br>
+
+        <div id="result">
+            <h3> Your BMI RESULTS: <span id="bmiResult"></span></h3>
+            <p id="comment"></p>
+
+        </div>
+
+       
+
+    </div>
+    
+    <script src="practice.js"></script>
+</body>
+</html>
